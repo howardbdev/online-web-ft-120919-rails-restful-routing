@@ -1,4 +1,0 @@
-class SushisController < ApplicationController
-
-
-end
