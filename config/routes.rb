@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get '/', to: "sushis#home"
   get '/:anything', to: "application#wrong_page"
+
+  get '/sushis', to: "sushis#index"
 end
