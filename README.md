@@ -2,6 +2,8 @@
 
 This is a CRUD app with a workshop and solution branch to practice writing RESTful Routes, corresponding controller actions, and rendering the associated views.
 
+## ALL CREDIT for the styling and original work that went into this lesson, including the slides, goes to Meryl Dakin, who generously gave me permission to use her work for future lectures.  Original repo lives [here](https://github.com/meryldakin/restful_routes).
+
 ## How to Run
 
 1. Clone down this lab
