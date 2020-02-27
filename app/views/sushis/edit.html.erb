@@ -1,0 +1,14 @@
+<% if @sushi.errors.any? %>
+  <h3 style="color: red;"><%= @sushi.errors.full_messages.to_sentence %></h3>
+<% end %>
+<%# we use form_for when we have an object already %>
+<%= form_for @sushi do |f| %>
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.submit %>
+  </div>
+<% end %>
