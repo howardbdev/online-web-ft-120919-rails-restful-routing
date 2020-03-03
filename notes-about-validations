@@ -1,0 +1,24 @@
+What are Rails/ActiveRecord validations?
+
+Validations: Conditions that must be met before a record gets saved, i.e. persisted to the database.
+
+What are the steps, or tools, we use for validations?
+
+- check validity of data before saving
+- the `.validates` method
+- `validates :name, presence: true`
+- Once in place, how does this work???
+- WHEN do validators get called?
+  - `#valid?`
+  - `#invalid?`
+  - `#create` (both versions of `#create`)
+  - `#save`
+  - `#update`
+  - does NOT get checked on `.new` or `.build`
+
+- Once validations have been run, how do we know whether an object is valid -- whether it has passed the validations?
+- `#save` will return `false` if object is invalid
+- `#create` returns the object, regardless of whether object is invalid
+- What is the difference between `.create` and `.create!`  ???? (save and update too...)
+
+- Upon failing validations, Rails populates the errors array (what is errors, anyway?) with messages about what went wrong.  This is what inherent validators do, and it's what your custom validators need to do.
