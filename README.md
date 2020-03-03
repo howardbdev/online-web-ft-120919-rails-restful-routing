@@ -4,6 +4,13 @@ This is a CRUD app with a workshop and solution branch to practice writing RESTf
 
 ## ALL CREDIT for the styling and original work that went into this lesson, including the slides, goes to Meryl Dakin, who generously gave me permission to use her work for future lectures.  Original repo lives [here](https://github.com/meryldakin/restful_routes).
 
+## Branches
+
+Notice there are several branches.  `master-2` is the default branch and contains the latest code.  Other named branches correspond to a particular lecture, as follows:
+  - `online-web-ft-twelve-nine-nineteen` is the first Rails ReSTful Routing & CRUD lecture from Wednesday, February 26, 2020
+  - `online-web-ft-twelve-nine-nineteen-part-two` is the second Rails ReSTful Routing & CRUD lecture from Thursday, February 27, 2020
+  - `validations-lecture` is the Rails Validations lecture from Tuesday, March 3, 2020
+
 ## How to Run
 
 1. Clone down this lab
