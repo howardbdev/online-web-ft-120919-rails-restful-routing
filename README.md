@@ -7,9 +7,9 @@ This is a CRUD app with a workshop and solution branch to practice writing RESTf
 ## Branches
 
 Notice there are several branches.  `master-2` is the default branch and contains the latest code.  Other named branches correspond to a particular lecture, as follows:
-  - `online-web-ft-twelve-nine-nineteen` is the first Rails ReSTful Routing & CRUD lecture from Wednesday, February 26, 2020
-  - `online-web-ft-twelve-nine-nineteen-part-two` is the second Rails ReSTful Routing & CRUD lecture from Thursday, February 27, 2020
-  - `validations-lecture` is the Rails Validations lecture from Tuesday, March 3, 2020
+  - `online-web-ft-twelve-nine-nineteen`: Rails ReSTful Routing & CRUD part 1 - Wednesday, 02/26/2020
+  - `online-web-ft-twelve-nine-nineteen-part-two`: Rails ReSTful Routing & CRUD part 2 - Thursday, 02/27/2020
+  - `validations-lecture`: Rails Validations - Tuesday, 03/02/2020
 
 ## How to Run
 
